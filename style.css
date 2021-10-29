@@ -1,0 +1,99 @@
+body{
+    background-image:url(./imgbackground.jpg);
+    margin-bottom:80px;
+    padding:5px;
+    border:10px ridge green;
+    
+}
+
+#mainbox{
+    display:flex;
+    margin-top:30px;
+}
+.box{
+    border:5px solid red;
+    border-radius:20px;
+    background-color:black;
+    color:white;
+    margin:auto;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+#box1{
+    padding:15px 7px 18px 0px;
+    width: 20%;
+    height: 15%;
+}
+#box2 {
+    padding:15px 40px 10px 40px;
+    border-radius: 30px;
+    width: 25%;
+}
+#box3{
+    padding:10px 30px 5px 30px;
+    width: 20%;
+    height: 15%;
+}
+#center-box{
+    display:flex;
+    margin-left:30px;
+}
+#circle{
+    border:10px solid rgba(125, 126, 120, 0.705);
+    border-radius:50%;
+    background-color:rgb(0, 139, 109);
+    text-align: center;
+    margin-top:250px;
+    width:320px;
+    height:220px;
+    padding:90px 2px 0px 2px;
+    font-style: italic;
+    font-weight: bold;
+}
+#form{
+    border:5px dashed red;
+    width:350px;
+    height:650px;
+    background-color:white;
+    margin-left:250px;
+    margin-top:50px;
+    text-align:center;
+    color:rgba(241, 72, 72, 0.904);
+}
+.lable{
+    margin-bottom:4px;
+    margin-top:10px;
+    font-size:18px;
+}
+.input-element{
+    text-align:center;
+}
+#menu{
+    margin-left: 25%;
+    border:5px solid red;
+    border-radius:30px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:15px 150px 10px 150px;
+    font-size: 30px;
+    font-style: italic;
+    width: 12%;
+}
+.list{
+    border:3px solid green;
+    border-radius:20px;
+    background-color:rgb(22, 196, 202);
+    color:rgb(76, 16, 172);
+    text-align:center;
+    margin: auto;
+    width:400px;
+    height:290px;
+    margin-bottom: 15px;
+    
+}
+li{
+    margin: 5px;
+}
